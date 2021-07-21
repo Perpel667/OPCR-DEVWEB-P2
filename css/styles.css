@@ -155,12 +155,24 @@ i.fas.fa-info {
   background-color: var(--gray-bg);
 }
 .hebergement-title {
-  padding: 32px;
+  padding: 50px 0px 30px 40px;
   font-size: 1.5rem;
 }
 .annonces-container {
-  background-color: white;
+  display: flex;
 }
+.annonces-container img {
+  height: 144px;
+  width: 236px;
+  border-radius: 16px 16px 0px 0px;
+}
+.annonces-wrapper {
+  background-color: rgb(255, 0, 0);
+  padding: 5px;
+  border-radius: 20px;
+  margin: 30px 40px 30px 40px;
+}
+
 .hebergements-fav {
   background-color: var(--gray-bg);
 }
