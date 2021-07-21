@@ -19,21 +19,22 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px 77px 50px 77px;
-  border-top: solid 2px var(--blue);
 }
 a.nav-items {
   text-decoration: none;
   font-weight: 500;
-  margin-right: 70px;
+  padding: 3.8rem 2rem 2rem 2rem;
   color: black;
 }
-a.nav-items:active {
+a.nav-items:focus {
   color: var(--blue);
+  border-top: 2px solid var(--blue);
 }
 a#signin {
   color: var(--blue);
   font-weight: 700;
   text-decoration: none;
+  padding: 3.8rem 0rem 2rem 2rem;
 }
 /* Top Section*/
 #top {
