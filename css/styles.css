@@ -42,3 +42,32 @@ a#signin {
 #top-title-desc {
   font-weight: 400;
 }
+/* Search-bar*/
+#search-bar {
+  padding-top: 10px;
+}
+#search-bar i {
+  background-color: var(--gray-bg);
+  padding: 15px;
+  border-radius: 8px 0px 0px 8px;
+}
+#search-bar input {
+  padding: 13px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  font-weight: bold;
+  border-top: 1px solid var(--gray-bg);
+  border-bottom: 1px solid var(--gray-bg);
+}
+#search-bar button {
+  padding: 13px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: var(--blue);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 0px 8px 8px 0px;
+}
