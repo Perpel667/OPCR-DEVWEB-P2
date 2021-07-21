@@ -114,3 +114,26 @@ a#signin {
 }
 
 /* Info */
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.info-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  color: var(--blue);
+}
+i.fas.fa-info {
+  font-size: 12px;
+}
+.info-txt {
+  margin-left: 10px;
+}
