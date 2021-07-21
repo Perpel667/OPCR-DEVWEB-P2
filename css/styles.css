@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 77px 50px 77px;
+  padding: 50px 50px 50px 50px;
 }
 a.nav-items {
   text-decoration: none;
@@ -38,7 +38,7 @@ a#signin {
 }
 /* Top Section*/
 #top {
-  padding: 0px 77px 0px 77px;
+  padding: 0px 50px 0px 50px;
   line-height: 30px;
 }
 #top-title-desc {
@@ -144,4 +144,23 @@ i.fas.fa-info {
 }
 .info-txt {
   margin-left: 10px;
+}
+/* SECTION HEBERGEMENT  */
+.hebergements-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 0px 50px;
+}
+#Hebergements {
+  background-color: var(--gray-bg);
+}
+.hebergement-title {
+  padding: 32px;
+  font-size: 1.5rem;
+}
+.annonces-container {
+  background-color: white;
+}
+.hebergements-fav {
+  background-color: var(--gray-bg);
 }

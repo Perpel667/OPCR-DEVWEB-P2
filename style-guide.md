@@ -9,11 +9,13 @@
 
 ### Primaires
 
-#### 
+####
+
 -bleu: #0065FC
 -bleu clair: #DEEBFF
 
 ### Background
+
 -gris: #F2F2F2
 
 ### Neutral
@@ -22,12 +24,11 @@
 
 -Black
 
-
 ### Body Copy
 
-- Font size: 
+- Font size:
 
 ### Font
 
 - Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 400, 700
+- Weights: 400,500,700
