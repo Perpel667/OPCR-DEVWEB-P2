@@ -75,6 +75,7 @@ a#signin {
 /* Filtres */
 #filters {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 30px;
 }
@@ -85,9 +86,11 @@ a#signin {
   border: 2px solid #d9d9d9;
   border-radius: 2rem;
   margin-right: 30px;
+  margin-bottom: 16px;
 }
 #filter-title {
   margin-right: 30px;
+  margin-bottom: 16px;
 }
 .icon-container {
   display: flex;
@@ -96,6 +99,8 @@ a#signin {
   background-color: var(--light-blue);
   height: 56px;
   width: 56px;
+  min-height: 56px;
+  min-width: 56px;
   border-radius: 50%;
   margin: -2px;
   color: var(--blue);
