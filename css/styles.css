@@ -71,3 +71,33 @@ a#signin {
   color: white;
   border-radius: 0px 8px 8px 0px;
 }
+/* Filtres */
+#filters {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+#filtre {
+  font-weight: bold;
+  margin-right: 50px;
+}
+#filters i {
+  height: 46px;
+  width: 46px;
+  color: var(--blue);
+  margin-right: 30px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--light-blue);
+  text-align: center;
+}
+#filters a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 30px;
+  padding-right: 30px;
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  border-left: none;
+}
