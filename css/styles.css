@@ -1,5 +1,5 @@
 /* Importation de la police*/
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 /* Variables */
 :root {
   --blue: #0065fc;
@@ -23,10 +23,11 @@
 }
 a.nav-items {
   text-decoration: none;
+  font-weight: 500;
   margin-right: 70px;
   color: black;
 }
-a.nav-items:hover {
+a.nav-items:active {
   color: var(--blue);
 }
 a#signin {
@@ -40,7 +41,7 @@ a#signin {
   line-height: 30px;
 }
 #top-title-desc {
-  font-weight: 400;
+  font-weight: 500;
 }
 /* Search-bar*/
 #search-bar {
@@ -100,4 +101,20 @@ a#signin {
   border: 1px solid #d9d9d9;
   border-radius: 25px;
   border-left: none;
+}
+/* Info */
+#info p {
+  font-weight: 500;
+  margin-top: 40px;
+}
+#info i {
+  color: var(--blue);
+  background: var(--light-blue);
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 3px;
+  margin-right: 10px;
 }
