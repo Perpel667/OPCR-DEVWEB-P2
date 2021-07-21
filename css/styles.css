@@ -34,3 +34,11 @@ a#signin {
   font-weight: 700;
   text-decoration: none;
 }
+/* Top Section*/
+#top {
+  padding: 0px 77px 0px 77px;
+  line-height: 30px;
+}
+#top-title-desc {
+  font-weight: 400;
+}
