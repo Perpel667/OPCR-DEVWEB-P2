@@ -183,3 +183,14 @@ i.fas.fa-info {
   padding: 40px 15px 15px 15px;
   border-radius: 20px;
 }
+.fav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .hebergements-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
