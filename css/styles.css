@@ -13,3 +13,24 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
+/* Navbar */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 77px 50px 77px;
+  border-top: solid 2px var(--blue);
+}
+a.nav-items {
+  text-decoration: none;
+  margin-right: 70px;
+  color: black;
+}
+a.nav-items:hover {
+  color: var(--blue);
+}
+a#signin {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
