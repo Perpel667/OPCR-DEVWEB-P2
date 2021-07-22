@@ -152,7 +152,7 @@ i.fas.fa-info {
 }
 #Hebergements {
   background-color: var(--gray-bg);
-  padding: 40px 15px 15px 15px;
+  padding: 40px 15px 40px 15px;
   border-radius: 20px;
 }
 .hebergement-title {
@@ -176,6 +176,12 @@ i.fas.fa-info {
   padding: 5px;
   border-radius: 20px;
   margin: 15px;
+}
+.showmore {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
 }
 
 .hebergements-fav {
