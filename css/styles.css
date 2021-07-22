@@ -159,7 +159,7 @@ i.fas.fa-info {
 .mainHostingWrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .mainHostingTitle {
   padding-bottom: 20px;
@@ -193,9 +193,9 @@ i.fas.fa-info {
   margin-left: 12px;
   margin-bottom: 4px;
 }
-.mainHostCardStars[data-active="true"] {
+.mainHostCardStars {
   color: var(--blue);
 }
-.mainHostCardStars[data-active="false"] {
+.mainHostCardStarsEmpty {
   color: gray;
 }
