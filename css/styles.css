@@ -156,7 +156,7 @@ i.fas.fa-info {
   border-radius: 20px;
 }
 .hebergement-title {
-  padding: 0px 0px 30px 15px;
+  padding: 0px 0px 15px 15px;
   font-size: 1.5rem;
 }
 .annonces-container {
@@ -166,9 +166,18 @@ i.fas.fa-info {
   justify-content: center;
 }
 .annonces-container img {
-  height: 144px;
+  height: 114px;
   width: 236px;
   border-radius: 16px 16px 0px 0px;
+}
+.annonces-content {
+  padding-left: 17px;
+}
+.prix {
+  font-weight: 700;
+}
+.annonces-content i {
+  color: var(--blue);
 }
 .annonces-wrapper {
   background-color: white;
@@ -176,6 +185,7 @@ i.fas.fa-info {
   padding: 5px;
   border-radius: 20px;
   margin: 15px;
+  line-height: 25px;
 }
 .showmore {
   font-weight: 700;
