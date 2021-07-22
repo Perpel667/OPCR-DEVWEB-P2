@@ -20,13 +20,13 @@
   justify-content: space-between;
   padding: 50px 50px 50px 50px;
 }
-a.nav-items {
+a.navItems {
   text-decoration: none;
   font-weight: 500;
   padding: 3.8rem 2rem 2rem 2rem;
   color: black;
 }
-a.nav-items:focus {
+a.navItems:focus {
   color: var(--blue);
   border-top: 2px solid var(--blue);
 }
@@ -34,26 +34,26 @@ a#signin {
   color: var(--blue);
   font-weight: 700;
   text-decoration: none;
-  padding: 3.8rem 0rem 2rem 2rem;
+  margin: 3.8rem 0rem 2rem 2rem;
 }
 /* Top Section*/
 #top {
   padding: 0px 50px 0px 50px;
   line-height: 30px;
 }
-#top-title-desc {
+#topTitleDesc {
   font-weight: 400;
 }
 /* Search-bar*/
-#search-bar {
+#searchBar {
   padding-top: 10px;
 }
-#search-bar i {
+#searchBar i {
   background-color: var(--gray-bg);
   padding: 15px;
   border-radius: 8px 0px 0px 8px;
 }
-#search-bar input {
+#searchBar input {
   padding: 13px;
   margin-top: 8px;
   font-size: 17px;
@@ -62,7 +62,7 @@ a#signin {
   border-top: 1px solid var(--gray-bg);
   border-bottom: 1px solid var(--gray-bg);
 }
-#search-bar button {
+#searchBar button {
   padding: 13px;
   margin-top: 8px;
   margin-right: 16px;
@@ -97,12 +97,12 @@ a#signin {
   box-shadow: inset 250px 0 0 0 var(--light-blue);
   color: var(--blue);
 }
-#filter-title {
+#filterTitle {
   margin-right: 22px;
   margin-bottom: 16px;
   font-size: 1.2rem;
 }
-.icon-container {
+.iconContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +115,7 @@ a#signin {
   margin: -2px;
   color: var(--blue);
 }
-.filter-txt {
+.filterTxt {
   font-weight: 700;
   margin-left: 20px;
   margin-right: 20px;
@@ -128,7 +128,7 @@ a#signin {
   margin-top: 16px;
   margin-bottom: 32px;
 }
-.info-icon-container {
+.infoIconContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,7 +142,7 @@ a#signin {
 i.fas.fa-info {
   font-size: 12px;
 }
-.info-txt {
+.infoTxt {
   margin-left: 10px;
 }
 /* SECTION HEBERGEMENT  */
@@ -152,9 +152,10 @@ i.fas.fa-info {
   grid-template-columns: 6fr 3fr;
   padding: 0px 40px 0px 40px;
 }
-.main-hosting {
+.mainHosting {
   background-color: var(--gray-bg);
   padding: 40px;
+  border-radius: 1rem;
 }
 .mainHostingWrapper {
   display: flex;
