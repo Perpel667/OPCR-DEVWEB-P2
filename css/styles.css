@@ -163,6 +163,7 @@ i.fas.fa-info {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .annonces-container img {
   height: 144px;
@@ -179,8 +180,9 @@ i.fas.fa-info {
 
 .hebergements-fav {
   background-color: var(--gray-bg);
-  padding: 40px 15px 15px 15px;
+  padding: 40px 30px 15px 30px;
   border-radius: 20px;
+  margin-left: 40px;
 }
 .fav-content {
   display: flex;
