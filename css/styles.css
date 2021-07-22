@@ -156,8 +156,13 @@ i.fas.fa-info {
   background-color: var(--gray-bg);
   padding: 40px;
 }
+.mainHostingWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .mainHostingTitle {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 .mainHostingCard {
   width: 256px;
