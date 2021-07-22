@@ -36,7 +36,9 @@ a#signin {
   text-decoration: none;
   margin: 3.8rem 0rem 2rem 2rem;
 }
-/* Top Section*/
+/**********
+   * TOP *
+**********/
 #top {
   padding: 0px 50px 0px 50px;
   line-height: 30px;
@@ -145,13 +147,16 @@ i.fas.fa-info {
 .infoTxt {
   margin-left: 10px;
 }
-/* SECTION HEBERGEMENT  */
+/**********
+* HOSTING *
+**********/
 #Hosting {
   display: grid;
   column-gap: 2rem;
   grid-template-columns: 6fr 3fr;
   padding: 0px 40px 0px 40px;
 }
+/* MAIN HOSTING */
 .mainHosting {
   background-color: var(--gray-bg);
   padding: 40px;
@@ -200,3 +205,14 @@ i.fas.fa-info {
 .mainHostCardStarsEmpty {
   color: gray;
 }
+.showMore {
+  text-decoration: none;
+}
+.showMoreTitle {
+  color: black;
+  margin-top: 40px;
+}
+.showMoreTitle:hover {
+  color: var(--blue);
+}
+/* POPULAR HOSTING */
