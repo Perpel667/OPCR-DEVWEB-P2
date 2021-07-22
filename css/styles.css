@@ -176,6 +176,8 @@ i.fas.fa-info {
   background-color: white;
   padding: 5px;
   border-radius: 1rem;
+  box-shadow: 1px 3px 5px 0px #c7c4c4;
+  margin-bottom: 20px;
 }
 .mainHostingCardFigImg {
   width: 100%;
@@ -231,6 +233,7 @@ i.fas.fa-info {
   padding: 5px;
   border-radius: 1rem;
   margin-top: 20px;
+  box-shadow: 1px 3px 5px 0px #c7c4c4;
 }
 .popHostingCardFig {
   display: flex;
