@@ -199,10 +199,10 @@ i.fas.fa-info {
   margin-left: 12px;
   margin-bottom: 4px;
 }
-.mainHostCardStars {
+.HostCardStars {
   color: var(--blue);
 }
-.mainHostCardStarsEmpty {
+.HostCardStarsEmpty {
   color: gray;
 }
 .showMore {
@@ -210,9 +210,57 @@ i.fas.fa-info {
 }
 .showMoreTitle {
   color: black;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .showMoreTitle:hover {
   color: var(--blue);
 }
 /* POPULAR HOSTING */
+.popHostingTop {
+  display: flex;
+  justify-content: space-between;
+}
+.popHosting {
+  background-color: var(--gray-bg);
+  padding: 40px;
+  border-radius: 1rem;
+}
+.popHostingCard {
+  width: 380px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+.popHostingCardFig {
+  display: flex;
+}
+.popHostingCardFigImg {
+  width: 35%;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+h3.popHostingCardFigCapTitle {
+  margin: 10px 5px 10px 0px;
+}
+i.fas.fa-chart-line {
+  font-size: 1.5rem;
+}
+.popHostingCard a {
+  text-decoration: none;
+  color: black;
+}
+.popHostingCardFigCap {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+.popHostingCardTxt {
+  margin: 4px 12px;
+}
+.popHostingCardRate {
+  margin-left: 12px;
+  margin-bottom: 4px;
+  margin-top: 38px;
+}
