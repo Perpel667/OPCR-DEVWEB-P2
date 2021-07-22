@@ -148,8 +148,49 @@ i.fas.fa-info {
 /* SECTION HEBERGEMENT  */
 #Hosting {
   display: grid;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
+  column-gap: 2rem;
   grid-template-columns: 6fr 3fr;
-  gap: 0em 2em;
+  padding: 0px 40px 0px 40px;
+}
+.main-hosting {
+  background-color: var(--gray-bg);
+  padding: 40px;
+}
+.mainHostingTitle {
+  padding-bottom: 15px;
+}
+.mainHostingCard {
+  width: 256px;
+  height: 200px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 1rem;
+}
+.mainHostingCardFigImg {
+  width: 100%;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+.mainHostingCard a {
+  text-decoration: none;
+  color: black;
+}
+.mainHostingFigCapTitle {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+.mainHostingCardTxt {
+  margin: 4px 12px;
+}
+.mainHostingCardRate {
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+.mainHostCardStars[data-active="true"] {
+  color: var(--blue);
+}
+.mainHostCardStars[data-active="false"] {
+  color: gray;
 }
