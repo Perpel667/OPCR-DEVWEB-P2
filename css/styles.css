@@ -146,74 +146,10 @@ i.fas.fa-info {
   margin-left: 10px;
 }
 /* SECTION HEBERGEMENT  */
-.hebergements-container {
-  display: flex;
-  padding: 0px 50px 0px 50px;
-}
-#Hebergements {
-  background-color: var(--gray-bg);
-  padding: 40px 15px 40px 15px;
-  border-radius: 20px;
-}
-.hebergement-title {
-  padding: 0px 0px 15px 15px;
-  font-size: 1.5rem;
-}
-.annonces-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.annonces-container img {
-  height: 114px;
-  width: 236px;
-  border-radius: 16px 16px 0px 0px;
-}
-.annonces-content {
-  padding-left: 17px;
-}
-.prix {
-  font-weight: 700;
-}
-.annonces-content i {
-  color: var(--blue);
-}
-.annonces-wrapper {
-  background-color: white;
-  box-shadow: 0 1px 10px -4px grey;
-  padding: 5px;
-  border-radius: 20px;
-  margin: 15px;
-  line-height: 25px;
-}
-.showmore {
-  font-weight: 700;
-  text-decoration: none;
-  color: black;
-  padding-left: 15px;
-}
-
-.hebergements-fav {
-  background-color: var(--gray-bg);
-  padding: 40px 30px 15px 30px;
-  border-radius: 20px;
-  margin-left: 40px;
-}
-.fav-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-@media screen and (max-width: 1215px) {
-  .hebergements-container {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .hebergements-fav {
-    padding: 40px 15px 40px 15px;
-  }
-  .annonces-container {
-    justify-content: center;
-  }
+#Hosting {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 6fr 3fr;
+  gap: 0em 2em;
 }
