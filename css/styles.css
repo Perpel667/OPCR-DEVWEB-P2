@@ -279,7 +279,7 @@ i.fas.fa-chart-line {
 .activitiesGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr 2fr;
+  grid-template-rows: 180px 5px 5px 5px 180px;
   gap: 2em 2em;
   grid-auto-flow: row;
   grid-template-areas:
@@ -319,14 +319,14 @@ i.fas.fa-chart-line {
   width: 100%;
   height: 100%;
   background: white;
-  padding: 5px 5px 40px 5px;
+  padding: 0px 0px 60px 0px;
   border-radius: 1rem;
-  box-shadow: 1px 3px 5px 0px #c7c4c4;
+  box-shadow: 2px 2px 5px 0px #e6dada;
   margin-top: 25px;
 }
 .activitiesCard h3 {
   color: black;
-  margin: 4px 12px 0px 12px;
+  margin: 15px 12px 0px 20px;
 }
 .activitiesGrid a {
   text-decoration: none;
