@@ -159,7 +159,7 @@ i.fas.fa-info {
 /* MAIN HOSTING */
 .mainHosting {
   background-color: var(--gray-bg);
-  padding: 40px;
+  padding: 25px;
   border-radius: 1rem;
 }
 .mainHostingWrapper {
@@ -171,7 +171,7 @@ i.fas.fa-info {
   padding-bottom: 20px;
 }
 .mainHostingCard {
-  width: 256px;
+  width: 300px;
   height: 200px;
   background-color: white;
   padding: 5px;
@@ -224,11 +224,16 @@ i.fas.fa-info {
 }
 .popHosting {
   background-color: var(--gray-bg);
-  padding: 40px;
+  padding: 25px;
   border-radius: 1rem;
 }
+.popHostingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .popHostingCard {
-  width: 380px;
+  width: 100%;
   background-color: white;
   padding: 5px;
   border-radius: 1rem;
