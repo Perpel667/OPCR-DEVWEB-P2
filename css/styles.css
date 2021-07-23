@@ -324,6 +324,12 @@ i.fas.fa-chart-line {
   box-shadow: 1px 3px 5px 0px #c7c4c4;
   margin-top: 25px;
 }
+.activitiesCard h3 {
+  color: black;
+}
+.activitiesGrid a {
+  text-decoration: none;
+}
 img.activitiesCardImg {
   width: 100%;
   height: 100%;
