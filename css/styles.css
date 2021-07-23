@@ -326,6 +326,7 @@ i.fas.fa-chart-line {
 }
 .activitiesCard h3 {
   color: black;
+  margin: 4px 12px 0px 12px;
 }
 .activitiesGrid a {
   text-decoration: none;
@@ -335,4 +336,27 @@ img.activitiesCardImg {
   height: 100%;
   object-fit: cover;
   border-radius: 1rem 1rem 0rem 0rem;
+}
+/*Footer*/
+.footerContainer {
+  background-color: var(--gray-bg);
+  margin-top: 100px;
+  display: flex;
+  padding: 40px 0px 40px 0px;
+  justify-content: space-around;
+}
+.footerList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.footerList a {
+  text-decoration: none;
+}
+.footerList a:hover {
+  color: var(--blue);
+}
+.footerListItems {
+  color: black;
+  margin-top: 10px;
 }
