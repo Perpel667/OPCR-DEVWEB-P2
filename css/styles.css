@@ -215,6 +215,7 @@ i.fas.fa-info {
   margin-top: 50px;
 }
 .showMoreTitle:hover {
+  transition: all ease 0.2s;
   color: var(--blue);
 }
 /* POPULAR HOSTING */
@@ -350,10 +351,14 @@ img.activitiesCardImg {
   flex-direction: column;
   list-style: none;
 }
+.footerContentTitle {
+  margin-bottom: 10px;
+}
 .footerList a {
   text-decoration: none;
 }
-.footerList a:hover {
+.footerList li:hover {
+  transition: all ease 0.2s;
   color: var(--blue);
 }
 .footerListItems {
