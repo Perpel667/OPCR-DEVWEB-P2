@@ -480,12 +480,10 @@ img.activitiesCardImg {
   }
   .footerContainer {
     margin-top: 50px;
+    flex-direction: column;
+    padding: 0px 0px 40px 40px;
   }
   .footerContentTitle {
-    margin-bottom: 0px;
-    font-size: 0.8rem;
-  }
-  .footerListItems {
-    font-size: 0.6rem;
+    padding-top: 40px;
   }
 }
