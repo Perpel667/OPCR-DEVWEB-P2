@@ -51,7 +51,7 @@ a#signin {
 #searchBar {
   padding-top: 10px;
 }
-#searchBar i {
+i.fas.fa-map-marker-alt {
   background-color: var(--gray-bg);
   padding: 15px;
   border-radius: 8px 0px 0px 8px;
@@ -64,6 +64,12 @@ a#signin {
   font-weight: bold;
   border-top: 1px solid var(--gray-bg);
   border-bottom: 1px solid var(--gray-bg);
+}
+i.fas.fa-search {
+  display: none;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 10px;
 }
 #searchBar button {
   padding: 13px;
@@ -420,18 +426,14 @@ img.activitiesCardImg {
   #searchBar {
     text-align: center;
   }
-  #searchBar i {
-    padding: 14px;
-    font-size: 12px;
-  }
-  #searchBar input {
-    padding: 13px;
-    font-size: 11px;
-  }
   #searchBar button {
     padding: 13px;
     background: var(--blue);
-    font-size: 11px;
+    display: none;
+  }
+  i.fas.fa-search {
+    padding: 15px;
+    display: inline-block;
   }
   .popHostingCardFig {
     display: flex;
