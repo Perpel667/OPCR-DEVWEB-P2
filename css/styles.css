@@ -29,11 +29,11 @@
 a.navItems {
   text-decoration: none;
   font-weight: 500;
-  padding: 2.55rem 0rem 0rem 0rem;
+  padding: 2.65rem 0rem 0rem 0rem;
   margin: 0rem 2rem 2rem 2rem;
   color: black;
 }
-a.navItems:focus {
+a.navItems:hover {
   color: var(--blue);
   border-top: 2px solid var(--blue);
 }
@@ -388,7 +388,6 @@ img.activitiesCardImg {
     flex-direction: column-reverse;
     row-gap: 2rem;
     grid-template-columns: 6fr 3fr;
-    padding: 0px 40px 0px 40px;
   }
   .popHostingCardFigImg {
     width: 100%;
@@ -454,7 +453,7 @@ img.activitiesCardImg {
     padding: 0rem 0rem 10px 0rem;
     margin: 0rem 0rem 0rem 0rem;
   }
-  a.navItems:focus {
+  a.navItems:hover {
     color: var(--blue);
     border-top: none;
     border-bottom: 2px solid var(--blue);
@@ -478,13 +477,18 @@ img.activitiesCardImg {
     display: inline-block;
     font-size: 14px;
   }
+  #Hosting {
+    padding: 0px 0px 0px 0px;
+  }
+  .popHosting {
+    border-radius: 0px;
+  }
   .popHostingCardFig {
     display: flex;
     flex-direction: row;
   }
   .popHostingCardFigImg {
     width: 35%;
-    height: auto;
     object-fit: cover;
     border-radius: 1rem 0rem 0rem 1rem;
   }
