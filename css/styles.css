@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 50px 50px 50px;
+  margin: 30px 25px 30px 25px;
 }
 #signin2 {
   color: var(--blue);
@@ -46,7 +46,7 @@ a#signin {
    * TOP *
 **********/
 #top {
-  padding: 0px 50px 0px 50px;
+  padding: 0px 25px 0px 25px;
   line-height: 30px;
 }
 #topTitleDesc {
@@ -166,7 +166,7 @@ i.fas.fa-info {
   display: grid;
   column-gap: 2rem;
   grid-template-columns: 6fr 3fr;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 25px 0px 25px;
 }
 /* MAIN HOSTING */
 .mainHosting {
@@ -287,7 +287,7 @@ i.fas.fa-chart-line {
 }
 /* Activités */
 #activities {
-  margin: 50px 50px 0px 50px;
+  margin: 50px 25px 0px 25px;
 }
 .activitiesGrid {
   display: grid;
@@ -445,9 +445,10 @@ img.activitiesCardImg {
     text-align: center;
     margin-top: 20px;
     display: flex;
+    justify-content: center;
   }
   a.navItems {
-    padding: 0rem 1.5rem 10px 1.5rem;
+    padding: 0rem 3rem 10px 3rem;
     margin: 0rem 0rem 0rem 0rem;
     border-bottom: 2px solid lightgray;
   }
