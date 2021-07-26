@@ -1,6 +1,6 @@
 # OpenClassRooms - Projet 2 Reservia 🏠
 
-![Desktop Design preview](./design/desktop-1.png)
+![Desktop Design preview](./design/Desktop-1.png)
 
 ## Le projet
 
