@@ -13,7 +13,9 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
-/* Navbar */
+/**********
+* NAVBAR *
+**********/
 #navbar {
   display: flex;
   align-items: center;
@@ -43,7 +45,7 @@ a#signin {
   margin: 3.8rem 0rem 2rem 2rem;
 }
 /**********
-   * TOP *
+  * TOP *
 **********/
 #top {
   padding: 0px 25px 0px 25px;
@@ -52,7 +54,9 @@ a#signin {
 #topTitleDesc {
   font-weight: 400;
 }
-/* Search-bar*/
+/*************
+* SEARCH BAR *
+*************/
 #searchBar {
   padding-top: 10px;
 }
@@ -87,7 +91,9 @@ i.fas.fa-search {
   color: white;
   border-radius: 0px 8px 8px 0px;
 }
-/* Filtres */
+/***********
+* FIILTRES *
+***********/
 #filters {
   display: flex;
   flex-wrap: wrap;
@@ -135,7 +141,9 @@ i.fas.fa-search {
   margin-right: 20px;
 }
 
-/* Info */
+/**********
+  * INFO *
+**********/
 .info {
   display: flex;
   align-items: center;
@@ -168,7 +176,9 @@ i.fas.fa-info {
   grid-template-columns: 6fr 3fr;
   padding: 0px 25px 0px 25px;
 }
-/* MAIN HOSTING */
+/*******************
+  * MAIN HOSTING *
+*******************/
 .mainHosting {
   background-color: var(--gray-bg);
   padding: 25px;
@@ -230,7 +240,9 @@ i.fas.fa-info {
   transition: all ease 0.2s;
   color: var(--blue);
 }
-/* POPULAR HOSTING */
+/*******************
+* POPULAR HOSTING *
+*******************/
 .popHostingTop {
   display: flex;
   justify-content: space-between;
@@ -285,7 +297,9 @@ i.fas.fa-chart-line {
   margin-bottom: 4px;
   margin-top: 38px;
 }
-/* Activités */
+/***************
+ * ACTIVITIES *
+****************/
 #activities {
   margin: 50px 25px 0px 25px;
 }
@@ -379,7 +393,9 @@ img.activitiesCardImg {
 .footerListItems a {
   color: black;
 }
-/* RESPONSIVE LOW SCREEN*/
+/*******************
+  * RESPONSIVE *
+*******************/
 
 @media screen and (max-width: 1135px) {
   #Hosting {
