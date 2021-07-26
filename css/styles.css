@@ -20,6 +20,12 @@
   justify-content: space-between;
   margin: 30px 50px 50px 50px;
 }
+#signin2 {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+  display: none;
+}
 a.navItems {
   text-decoration: none;
   font-weight: 500;
@@ -423,6 +429,35 @@ img.activitiesCardImg {
 }
 /* RESPONSIVE IPHONE8*/
 @media screen and (max-width: 613px) {
+  #navbar {
+    display: block;
+  }
+  .navbartop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #signin {
+    display: none;
+  }
+  #signin2 {
+    display: inline-block;
+  }
+  #nav-links {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+  }
+  a.navItems {
+    padding: 0rem 2rem 10px 2rem;
+    margin: 0rem 0rem 2rem 0rem;
+  }
+  a.navItems:focus {
+    color: var(--blue);
+    border-top: none;
+    border-bottom: 2px solid var(--blue);
+  }
   #searchBar {
     text-align: center;
   }
