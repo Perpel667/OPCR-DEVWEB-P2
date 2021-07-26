@@ -447,11 +447,12 @@ img.activitiesCardImg {
     text-align: center;
     margin-top: 20px;
     border-bottom: 2px solid lightgray;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
   }
   a.navItems {
-    padding: 0rem 2rem 10px 2rem;
-    margin: 0rem 0rem 2rem 0rem;
+    padding: 0rem 0rem 10px 0rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
   a.navItems:focus {
     color: var(--blue);
@@ -466,9 +467,16 @@ img.activitiesCardImg {
     background: var(--blue);
     display: none;
   }
+  #searchBar input {
+    font-size: 14px;
+  }
+  i.fas.fa-map-marker-alt {
+    font-size: 14px;
+  }
   i.fas.fa-search {
     padding: 15px;
     display: inline-block;
+    font-size: 14px;
   }
   .popHostingCardFig {
     display: flex;
