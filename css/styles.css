@@ -510,7 +510,7 @@ img.activitiesCardImg {
   }
   .popHostingCardFigImg {
     width: 35%;
-    height: auto;
+    height: 150px;
     object-fit: cover;
     border-radius: 1rem 0rem 0rem 1rem;
   }
@@ -554,5 +554,13 @@ img.activitiesCardImg {
   }
   .footerContentTitle {
     padding-top: 40px;
+  }
+}
+@media screen and (max-width: 436px) {
+  .popHostingCardFigImg {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem 0rem 0rem 1rem;
   }
 }
