@@ -17,17 +17,28 @@
 * NAVBAR *
 **********/
 #navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 30px 25px 30px 25px;
+  display: grid;
+  grid-template-columns: 1fr 2.4fr 0.5fr 0.5fr 0.6fr;
+  grid-template-rows: 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "Logo . Host Activities Signin";
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
-#signin2 {
-  color: var(--blue);
-  font-weight: 700;
-  text-decoration: none;
-  display: none;
+.Logo {
+  grid-area: Logo;
+  padding: 1rem 2rem 0rem 2rem;
 }
+.Host {
+  grid-area: Host;
+}
+.Activities {
+  grid-area: Activities;
+}
+.Signin {
+  grid-area: Signin;
+}
+
 a.navItems {
   text-decoration: none;
   font-weight: 500;
@@ -42,7 +53,7 @@ a#signin {
   color: var(--blue);
   font-weight: 700;
   text-decoration: none;
-  margin: 3.8rem 0rem 2rem 2rem;
+  padding: 2.65rem 2rem 0rem 2rem;
 }
 /**********
   * TOP *
@@ -447,24 +458,20 @@ img.activitiesCardImg {
 /* RESPONSIVE IPHONE8*/
 @media screen and (max-width: 613px) {
   #navbar {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Logo . . Signin"
+      "Host Host Activities Activities";
   }
-  .navbartop {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  a#signin {
+    padding: 2.65rem 2rem 2rem 2rem;
   }
-  #signin {
-    display: none;
-  }
-  #signin2 {
-    display: inline-block;
-  }
-  #nav-links {
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  .Logo {
+    grid-area: Logo;
+    padding: 1.5rem 2rem 0rem 2rem;
   }
   a.navItems {
     padding: 0rem 3rem 10px 3rem;
