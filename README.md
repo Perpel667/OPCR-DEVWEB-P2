@@ -1,6 +1,6 @@
 # OpenClassRooms - Projet 2 Reservia 🏠
 
-🕰 **Temps écoulé** : 6 jours 🕰
+🕰 **Temps écoulé** : 7 jours 🕰
 
 ## Tâches
 
